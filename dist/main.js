@@ -1,1 +1,1 @@
-!function o(l){l<=0?console.log("Uhuul Terminou!"):(console.log(l),o(l-1))}(10);
+(()=>{function e(u){u<=0?console.log("Uhuul Terminou!"):(setTimeout(console.log(u),1e3),setTimeout(e(u-1),1e3))}document.querySelector("#userSubmit").addEventListener("click",(function(){e(document.querySelector("#userInput").value)}))})();
