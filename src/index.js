@@ -8,3 +8,4 @@ function contadorRecursive (n){
         contadorRecursive(n-1)
     }
 }
+contadorRecursive(10)

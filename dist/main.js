@@ -1,0 +1,1 @@
+!function o(l){l<=0?console.log("Uhuul Terminou!"):(console.log(l),o(l-1))}(10);
